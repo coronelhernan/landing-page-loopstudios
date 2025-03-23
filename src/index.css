@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+@theme {
+  /* Colors */
+  --color-primary-light: hsl(0, 0%, 100%);
+  --color-primary-dark: hsl(0, 0%, 0%);
+  --color-primary-gray: hsl(0, 0%, 55%);
+  --color-primary-gray-dark: hsl(0, 0%, 41%);
+  
+  /* Fonts */
+  --body-font-size: 15px;
+  --font-alata: "Alata", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+}

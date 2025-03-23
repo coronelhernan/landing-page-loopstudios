@@ -1,0 +1,75 @@
+.layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.header {
+  grid-column: span 3;
+}
+
+.main {
+  grid-column: span 4;
+}
+
+.aside {
+  grid-column: span 1;
+}
+
+/* Responsive Desing Section OurCreations */
+@media (max-width: 640px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside";
+  }
+
+  .header {
+    grid-area: header;
+    padding: 6px;
+  }
+
+  .aside {
+    grid-area: aside;
+    transform: translateY(-65px);
+  }
+
+  .main {
+    grid-area: main;
+  }
+
+  .aside,
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-deep-earth {
+    object-position: top bottom;
+  }
+  .image-night-arcade {
+    object-position: center;
+  }
+  .image-soccer-team {
+    object-position: top ;
+  }
+  .image-grid {
+    object-position: center center;
+  }
+  .image-from-above {
+    object-position: left center right;
+  }
+  .image-pocket-borealis {
+    object-position: left center;
+  }
+  .image-curiosity {
+    object-position: top right;
+  }
+  .image-fisheye {
+    object-position: right center left;
+  }
+}
