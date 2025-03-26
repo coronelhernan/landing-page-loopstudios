@@ -22,8 +22,8 @@ Implemented Features:
 
 ### Links  
 
-- **Solution URL:** [Add your solution link here](#)  
-- **Live Site URL:** [Add your live site link here](#)  
+- **Solution URL:** [Solution github](https://github.com/coronelhernan/landing-page-loopstudios)  
+- **Live Site URL:** [Site Live](https://landing-loopstudios2025.netlify.app/)  
 
 ## My Process  
 
